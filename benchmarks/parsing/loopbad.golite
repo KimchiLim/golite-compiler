@@ -1,0 +1,9 @@
+func main() {
+	var x, y, i int;
+	x = 10
+	i = 0;
+	for () {i = i + 1;} // Missing expression
+	for (i <= x) // Missing statement blocks
+
+	return;
+}

@@ -1,0 +1,13 @@
+func main() {
+	var x, y, i int;
+	x = 10;
+	y = 2;
+	i = 0;
+
+	for (i <= x) {
+		y =  y * y;
+		i = i + 1;
+	}
+
+	return;
+}

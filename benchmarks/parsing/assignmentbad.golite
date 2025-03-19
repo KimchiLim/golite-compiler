@@ -1,0 +1,10 @@
+// A bunch of incorrect assignments.
+func main() {
+	var x int;
+	x = =;
+	x = +;
+	x = ;
+	x = "bad";
+	
+	return;
+}

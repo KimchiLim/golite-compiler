@@ -1,0 +1,12 @@
+// Incorrect function signature --- no parameter typing
+func foo(a) {
+	return a;
+}
+
+func main() {
+	var x, y int;
+	x = 10;
+	y = foo(x);
+
+	return;
+}

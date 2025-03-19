@@ -1,0 +1,13 @@
+func foo(a int) int {
+	return a * a;
+}
+
+func main() {
+	var x int;
+	var y int;
+
+	x = 10;
+	y = foo(x);
+	
+	return;
+}

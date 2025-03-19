@@ -1,0 +1,13 @@
+type Point2D struct {
+	x int;
+	y int;
+};
+
+func main() {
+	var point *Point2D;
+	point = new Point2D;
+	point.x = 10;
+	point.y = 5;
+
+	return;
+}

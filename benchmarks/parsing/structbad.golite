@@ -1,0 +1,15 @@
+type Point2D struct {
+	// Improper declarations
+	var x int;
+	y;
+}
+// Missing semicolon
+
+func main() {
+	var point *Point2D;
+	point = new Point2D;
+	point.x = 10;
+	point.y = 5;
+
+	return;
+}
